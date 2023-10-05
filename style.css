@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #643cbb;
+}
+
+.QrCodeBox {
+    height: 27rem;
+    width: auto;
+    padding: 1rem;
+    border-radius: 10%;
+    background-color: #ffffffb1;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.meuFormulario {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.meuFormulario h1 {
+    margin-bottom: 0.25rem;
+}
+
+.linkLabel {
+    margin-bottom: 0.25rem;
+}
+
+.linkinput {
+    width: 100%;
+    padding: 0.25rem;
+}
+
+.linkbutton,
+.downloadbutton {
+    width: 100%;
+    padding: 0.25rem 1.25rem;
+    margin: 0.25rem 0;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    border: 0;
+    background-color: #643cbb;
+    color: white;
+}
+
+.linkbutton:hover,
+.downloadbutton:hover {
+    cursor: pointer;
+    background-color: #7e4ee6;
+
+}
+
+.result {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.imagem {
+    width: 150px;
+    height: 150px;
+}
